@@ -45,7 +45,7 @@
   }
 
   a { color: inherit; text-decoration: none; }
-  ::selection { background: var(--bronze); color: var(--ink); }
+  /* Selection removed per user request */
   img { max-width: 100%; display: block; }
 
   :focus-visible {
@@ -543,10 +543,9 @@
 
 <section id="work" style="padding-top: 180px;">
     <div class="wrap">
-      <div class="section-label reveal">
-        <span class="num">02</span>
-        <span class="line"></span>
-        <span class="title">All Projects</span>
+      <div class="projects-header reveal" style="text-align: center; margin-bottom: 80px;">
+        <h1 style="font-family: var(--display); font-size: clamp(36px, 5vw, 56px); font-weight: 400; margin-bottom: 16px;">Selected Projects</h1>
+        <p style="color: var(--warm-gray); font-size: 18px; max-width: 50ch; margin: 0 auto;">A collection of my work across backend development, machine learning, and mobile applications.</p>
       </div>
 
       <div class="work-row reveal">
@@ -584,11 +583,69 @@
           <h3>Smart Procurement &amp; Supply Chain System</h3>
           <p>A full-stack procurement system built with ASP.NET Core and SQL, automating the supply chain workflow from requisition and vendor management through purchase order generation — with optimized queries and secure REST APIs.</p>
           <div class="work-tags"><span>ASP.NET Core</span><span>SQL</span><span>REST APIs</span></div>
-          <a href="#" class="work-link">Read the case study</a>
+
         </div>
       </div>
 
-      
+      <div class="work-row reverse reveal">
+        <div class="work-visual">
+          <div class="ph" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width: 64px; height: 64px; opacity: 0.18;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+        </div>
+        <div class="work-info">
+          <div class="work-plate">Plate IV</div>
+          <h3>CoinExEye</h3>
+          <p>A comprehensive cryptocurrency tracking and exchange platform providing real-time market data, analysis, and trading capabilities.</p>
+          <div class="work-tags"><span>Web Development</span><span>Crypto</span><span>Market Data</span></div>
+          <a href="https://coinexeye.com/" class="work-link" target="_blank" rel="noopener">Visit Website</a>
+        </div>
+      </div>
+
+      <div class="work-row reveal">
+        <div class="work-visual">
+          <div class="ph" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width: 64px; height: 64px; opacity: 0.18;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+        </div>
+        <div class="work-info">
+          <div class="work-plate">Plate V</div>
+          <h3>CoinRix</h3>
+          <p>A web-based cryptocurrency analytics platform focused on delivering accurate trading insights and advanced market overview tools.</p>
+          <div class="work-tags"><span>Web Development</span><span>Crypto</span><span>Analytics</span></div>
+          <a href="https://coinrix.com/" class="work-link" target="_blank" rel="noopener">Visit Website</a>
+        </div>
+      </div>
+
+      <div class="work-row reverse reveal">
+        <div class="work-visual">
+          <div class="ph" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width: 64px; height: 64px; opacity: 0.18;"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+        </div>
+        <div class="work-info">
+          <div class="work-plate">Plate VI</div>
+          <h3>NetNinja VPN</h3>
+          <p>A secure VPN application that allows users to change their virtual location by selecting servers globally, ensuring private and unrestricted browsing.</p>
+          <div class="work-tags"><span>Android</span><span>Mobile App</span><span>Networking</span></div>
+          <a href="https://github.com/Usmankhan-038/netninja_vpn" class="work-link" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="work-row reveal">
+        <div class="work-visual">
+          <div class="ph" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="width: 64px; height: 64px; opacity: 0.18;"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+        </div>
+        <div class="work-info">
+          <div class="work-plate">Plate VII</div>
+          <h3>Life In UK Test App</h3>
+          <p>An educational app aimed at preparing users to pass the Life in the UK test easily. It features quick tests, mock exams, and robust progress tracking.</p>
+          <div class="work-tags"><span>Android</span><span>Mobile App</span><span>Education</span></div>
+          <a href="https://github.com/Usmankhan-038/life_in_uk_Quiz" class="work-link" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
     </div>
   </section>
 <section id="contact" class="border-top contact-section">
